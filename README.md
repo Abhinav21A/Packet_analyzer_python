@@ -22,5 +22,4 @@ python main.py output.pcap 10
 - `packet_analyzer/pcap_reader.py`
 - `packet_analyzer/packet_parser.py`
 
-## Interview Pitch
-A Python-based packet analyzer for PCAP files that parses network layers, identifies common traffic types, and provides both packet-level and run-level insights.
+
