@@ -1,4 +1,4 @@
-# Packet Analyzer (Python Version)
+# Packet Analyzer
 
 This is a Python conversion of the packet analyzer project, rebuilt in a simpler and interview-friendly structure while keeping the core idea the same: read packets from a PCAP file, parse network layers, and print readable packet insights.
 
