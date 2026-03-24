@@ -11,6 +11,23 @@ This is a Python conversion of the packet analyzer project, rebuilt in a simpler
 - Shows both hex preview and ASCII payload preview
 - Prints end-of-run analytics summary
 
+## Project Structure
+
+```text
+Packet_analyzer_python/
+├── packet_analyzer/              # Core source code
+│   ├── __init__.py
+│   ├── pcap_reader.py            # Reads packets from PCAP files
+│   ├── packet_parser.py          # Parses packet headers and protocol details
+│
+├── main.py                       # Entry point of the project
+├── generate_test_pcap.py         # Generates sample PCAP test data
+├── test_dpi.pcap                 # Sample packet capture file
+├── output.pcap                   # Generated/output capture file
+├── requirements.txt              # Project dependencies
+├── INTERVIEW_GUIDE.txt           # Notes for explaining the project in interviews
+└── README.md                     # Project documentation
+
 ## How to Run
 ```bash
 python main.py output.pcap
