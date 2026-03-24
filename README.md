@@ -1,6 +1,6 @@
 # Packet Analyzer
 
-This is a Python conversion of the packet analyzer project, rebuilt in a simpler and interview-friendly structure while keeping the core idea the same: read packets from a PCAP file, parse network layers, and print readable packet insights.
+This project showcases a simplified Python implementation of a packet analyzer that reads captured traffic from PCAP files, interprets protocol layers, and outputs human-readable packet analysis.
 
 ## Features
 - Reads classic `.pcap` files
